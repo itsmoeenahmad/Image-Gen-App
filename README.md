@@ -2,20 +2,12 @@
 
 A simple and clean mobile app developed using **Flutter**, powered by **OpenAI Dall-e-3** model. This app allows users to enter a text prompt and generate stunning AI images instantly.
 
----
 
-##  Getting Started
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/itsmoeenahmad/Image-Gen-App.git
-cd Image-Gen-App
-
-### 2. Add Your OpenAI API Key
-Make a .env file in the root directory of the project and add your OpenAI API key like this:
+## Getting Started
+- Clone the repo
+- Make a .env file in the root directory of the project and add your OpenAI API key like this:
 OPENAI_API_KEY=your_openai_key_here
-*Note:* The API key is already initialized in the main.py file to use this key from the .env file.
-
+- The API key is already initialized in the main.py file to use this key from the .env file.
 
 ## Dependencies
 - Flutter SDK
