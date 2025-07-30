@@ -1,16 +1,35 @@
-# imagegen
+# Image Gen App
 
-A simple image generation mobile app.
+A simple and clean mobile app developed using **Flutter**, powered by **OpenAI Dall-e-3** model. This app allows users to enter a text prompt and generate stunning AI images instantly.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+##  Getting Started
 
-A few resources to get you started if this is your first Flutter project:
+### 1. Clone the Repository
+```bash
+git clone https://github.com/itsmoeenahmad/Image-Gen-App.git
+cd Image-Gen-App
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 2. Add Your OpenAI API Key
+Make a .env file in the root directory of the project and add your OpenAI API key like this:
+OPENAI_API_KEY=your_openai_key_here
+*Note:* The API key is already initialized in the main.py file to use this key from the .env file.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## Dependencies
+- Flutter SDK
+- OpenAI (DALL·E) API
+- Dart OpenAI
+- Dotenv (for managing environment variables)
+
+## How It Works
+- Enter a creative prompt like "A futuristic city floating in the sky"
+- Tap the generate button
+- The app fetches a unique image from the OpenAI DALL·E API
+- View the generated image
+- Download the generated image - only for IOS
+
+
+## Credits
+Built with ❤️ using Flutter and OpenAI by [Moeen Ahmad](https://itsmoeenahmad.online)
